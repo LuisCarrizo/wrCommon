@@ -1,0 +1,32 @@
+{
+    "name": "wikired/wrcommon",
+    "description": "Wikired Common foundation Library",
+    "keywords": ["common", "foundation"],
+    "homepage": "http://github.com/LuisCarrizo/wrCommon",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis Carrizo",
+            "email": "lcarrizo@wikired.com.ar",
+            "homepage": "http://dev.wikired.com.ar"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+
+    },
+    "suggest": {
+
+    },
+    "autoload": {
+        "psr-4": {"wrCommon\\": "src/wrCommon"}
+    },
+    "autoload-dev": {
+        "psr-4":  {"wrCommon\\": "src/wrCommon"}
+    },
+    "provide": {
+    }
+}
