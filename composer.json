@@ -23,9 +23,11 @@
     },
     "autoload": {
         "psr-4": {"wrCommon\\": "src/wrCommon"}
+      , "files": ["src/wrCommon/wrFunctions.php"]  
     },
     "autoload-dev": {
         "psr-4":  {"wrCommon\\": "src/wrCommon"}
+      , "files": ["src/wrCommon/wrFunctions.php"] 
     },
     "provide": {
     }
