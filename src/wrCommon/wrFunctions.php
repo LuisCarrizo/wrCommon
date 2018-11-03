@@ -9,7 +9,7 @@
 	define('_ff' , '<br>' . PHP_EOL);
 	define('_hr' , '<hr>' . PHP_EOL);
 //just for debug
-echo 'Actual file:  ' . __FILE__ . _ff;
+echo 'Actual file =   ' . __FILE__ . _ff;
 
 	// include main class
 	include 'wrCommonFoundation.php' ;	
