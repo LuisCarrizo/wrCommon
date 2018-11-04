@@ -22,12 +22,12 @@
 
     },
     "autoload": {
-        "psr-4": {"wrCommon\\": "src/wrCommon"}
-      , "files": ["src/wrCommon/wrFunctions.php"]  
+        "psr-4": {"Wikired\\": "src/Wikired"}
+      , "files": ["src/Wikired/wrFunctions.php"]  
     },
     "autoload-dev": {
-        "psr-4":  {"wrCommon\\": "src/wrCommon"}
-      , "files": ["src/wrCommon/wrFunctions.php"] 
+        "psr-4":  {"Wikired\\": "src/Wikired"}
+      , "files": ["src/Wikired/wrFunctions.php"] 
     },
     "provide": {
     }
